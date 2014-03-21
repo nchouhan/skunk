@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadPlanExecutionHierarchyInfo>
+	<agentName>genagent</agentName>
+	<attemptNumber>1</attemptNumber>
+	<beginDate>1354104959000</beginDate>
+	<context>TESTCTX</context>
+	<duration>9</duration>
+	<endDate>1354104968000</endDate>
+	<loadPlanExecutionDetailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=testWork&amp;entityId=17001-1&amp;entityName=LP_OsCmdFail
+	</loadPlanExecutionDetailLink>
+	<loadPlanExecutionName>LP_OsCmdFail</loadPlanExecutionName>
+	<loadPlanExecutionNumber>17001</loadPlanExecutionNumber>
+	<loadPlanExecutionStarted>1354104959000</loadPlanExecutionStarted>
+	<loadPlanExecutionUpdated>0</loadPlanExecutionUpdated>
+	<loadPlanName>LP_OsCmdFail</loadPlanName>
+	<loadPlanUrl>integration/displayEntity?entityType=LOAD_PLANS&amp;repositoryAlias=testWork&amp;entityId=10001&amp;entityName=LP_OsCmdFail
+	</loadPlanUrl>
+	<lpeRunId>1</lpeRunId>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=root_step&amp;entityId=0&amp;entityName=root_step
+		</detailLink>
+		<duration>00:09</duration>
+		<endDate>1354104968000</endDate>
+		<id>0</id>
+		<message>ODI-1519: Serial step &quot;root_step
+			(InternalID:1852001)&quot; failed because child step</message>
+		<name>root_step</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1519</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel1&amp;entityId=1&amp;entityName=Parallel1
+		</detailLink>
+		<duration>00:09</duration>
+		<endDate>1354104968000</endDate>
+		<id>1</id>
+		<message>ODI-1518: Parallel step &quot;Parallel1
+			(InternalID:1853001)&quot; failed; 1 child step(s)</message>
+		<name>Parallel1</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel11&amp;entityId=2&amp;entityName=Parallel11
+		</detailLink>
+		<duration>00:08</duration>
+		<endDate>1354104967000</endDate>
+		<id>2</id>
+		<message>ODI-1518: Parallel step &quot;Parallel11
+			(InternalID:1854001)&quot; failed; 1 child step(s</message>
+		<name>Parallel11</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL111&amp;entityId=3&amp;entityName=SCEN_PKGOSCMDFAIL111
+		</detailLink>
+		<duration>00:00</duration>
+		<endDate>1354104964000</endDate>
+		<id>3</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (514001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL111</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (514001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=514001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>514001</sessionId>
+			<sessionStarted>1354104964000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104964000</sessionStepStarted>
+				<sessionStepUpdated>1354104964000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104964000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104964000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104964000</sessionStepStarted>
+				<sessionStepUpdated>1354104964000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104964000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104964000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104964000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">514001
+		</sessionId>
+		<startDate>1354104964000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL112&amp;entityId=4&amp;entityName=SCEN_PKGOSCMDFAIL112
+		</detailLink>
+		<duration>00:00</duration>
+		<endDate>1354104965000</endDate>
+		<id>4</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1577: Parallel step error triggered on a parent step
+			&quot;Parallel1 (InternalID:</message>
+		<name>SCEN_PKGOSCMDFAIL112</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1577</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (515001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=515001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>515001</sessionId>
+			<sessionStarted>1354104965000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104965000</sessionStepStarted>
+				<sessionStepUpdated>1354104965000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104965000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104965000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104965000</sessionStepStarted>
+				<sessionStepUpdated>1354104965000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104965000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104965000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104965000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">515001
+		</sessionId>
+		<startDate>1354104965000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel12&amp;entityId=5&amp;entityName=Parallel12
+		</detailLink>
+		<duration>00:06</duration>
+		<endDate>1354104965000</endDate>
+		<id>5</id>
+		<message>ODI-1518: Parallel step &quot;Parallel12
+			(InternalID:1857001)&quot; failed; 1 child step(s</message>
+		<name>Parallel12</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL121&amp;entityId=6&amp;entityName=SCEN_PKGOSCMDFAIL121
+		</detailLink>
+		<duration>00:00</duration>
+		<endDate>1354104963000</endDate>
+		<id>6</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (513001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL121</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (513001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=513001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>513001</sessionId>
+			<sessionStarted>1354104963000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104963000</sessionStepStarted>
+				<sessionStepUpdated>1354104963000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104963000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104963000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104963000</sessionStepStarted>
+				<sessionStepUpdated>1354104963000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104963000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104963000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104963000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">513001
+		</sessionId>
+		<startDate>1354104963000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL122&amp;entityId=7&amp;entityName=SCEN_PKGOSCMDFAIL122
+		</detailLink>
+		<duration>00:01</duration>
+		<endDate>1354104963000</endDate>
+		<id>7</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (512001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL122</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>1</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (512001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=512001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>512001</sessionId>
+			<sessionStarted>1354104962000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104962000</sessionStepStarted>
+				<sessionStepUpdated>1354104962000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104962000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104962000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104963000</sessionStepStarted>
+				<sessionStepUpdated>1354104963000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104963000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104963000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104962000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">512001
+		</sessionId>
+		<startDate>1354104962000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel13&amp;entityId=8&amp;entityName=Parallel13
+		</detailLink>
+		<duration>00:07</duration>
+		<endDate>1354104966000</endDate>
+		<id>8</id>
+		<message>ODI-1518: Parallel step &quot;Parallel13
+			(InternalID:1860001)&quot; failed; 1 child step(s</message>
+		<name>Parallel13</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel131&amp;entityId=9&amp;entityName=Parallel131
+		</detailLink>
+		<duration>00:06</duration>
+		<endDate>1354104965000</endDate>
+		<id>9</id>
+		<message>ODI-1518: Parallel step &quot;Parallel131
+			(InternalID:1861001)&quot; failed; 1 child step(</message>
+		<name>Parallel131</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL1311&amp;entityId=10&amp;entityName=SCEN_PKGOSCMDFAIL1311
+		</detailLink>
+		<duration>00:01</duration>
+		<endDate>1354104961000</endDate>
+		<id>10</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (508001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL1311</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>1</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (508001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=508001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>508001</sessionId>
+			<sessionStarted>1354104960000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104961000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104961000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104961000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104961000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104961000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104961000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104960000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">508001
+		</sessionId>
+		<startDate>1354104960000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL1312&amp;entityId=11&amp;entityName=SCEN_PKGOSCMDFAIL1312
+		</detailLink>
+		<duration>00:00</duration>
+		<endDate>1354104961000</endDate>
+		<id>11</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (509001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL1312</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (509001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=509001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>509001</sessionId>
+			<sessionStarted>1354104961000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104961000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104961000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104961000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104961000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104961000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104961000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104961000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">509001
+		</sessionId>
+		<startDate>1354104961000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=Parallel132&amp;entityId=12&amp;entityName=Parallel132
+		</detailLink>
+		<duration>00:06</duration>
+		<endDate>1354104965000</endDate>
+		<id>12</id>
+		<message>ODI-1518: Parallel step &quot;Parallel132
+			(InternalID:1864001)&quot; failed; 1 child step(</message>
+		<name>Parallel132</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>ODI-1518</returnCode>
+		<startDate>1354104959000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL1321&amp;entityId=13&amp;entityName=SCEN_PKGOSCMDFAIL1321
+		</detailLink>
+		<duration>00:01</duration>
+		<endDate>1354104962000</endDate>
+		<id>13</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (510001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL1321</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>1</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (510001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=510001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>510001</sessionId>
+			<sessionStarted>1354104961000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104961000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104961000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104961000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>1</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104961000</sessionStepStarted>
+				<sessionStepUpdated>1354104962000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104962000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104962000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104961000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">510001
+		</sessionId>
+		<startDate>1354104961000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<lpeStepHierarchyInfo>
+		<detailLink>integration/displayEntity?entityType=LOAD_PLAN_EXECUTIONS&amp;repositoryAlias=SCEN_PKGOSCMDFAIL1322&amp;entityId=14&amp;entityName=SCEN_PKGOSCMDFAIL1322
+		</detailLink>
+		<duration>00:00</duration>
+		<endDate>1354104962000</endDate>
+		<id>14</id>
+		<linkedEntityId>9001</linkedEntityId>
+		<linkedEntityName>PkgOSCmdFail</linkedEntityName>
+		<linkedEntitytype>PACKAGE</linkedEntitytype>
+		<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (511001) fails with
+			return code 7000. ODI-12</message>
+		<name>SCEN_PKGOSCMDFAIL1322</name>
+		<noOfDeletes>0</noOfDeletes>
+		<noOfErrors>0</noOfErrors>
+		<noOfInserts>0</noOfInserts>
+		<noOfRows>0</noOfRows>
+		<noOfUpdates>0</noOfUpdates>
+		<returnCode>7000</returnCode>
+		<scenarioVariableName>SCEN_PKGOSCMDFAIL</scenarioVariableName>
+		<sessionHierarchyInfo>
+			<agentName>genagent</agentName>
+			<context>TESTCTX</context>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<inserts>0</inserts>
+			<message>ODI-1217: Session SCEN_PKGOSCMDFAIL (511001) fails with
+				return code 7000. ODI-12</message>
+			<name>SCEN_PKGOSCMDFAIL</name>
+			<noOfFailedChildSessions>0</noOfFailedChildSessions>
+			<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+			<origin>SCEN_PKGOSCMDFAIL-001</origin>
+			<recordCount>0</recordCount>
+			<returnCode>7000</returnCode>
+			<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=511001&amp;entityName=SCEN_PKGOSCMDFAIL
+			</sessionDetailLink>
+			<sessionId>511001</sessionId>
+			<sessionStarted>1354104962000</sessionStarted>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>0</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand1 fails after 1 attempt(s).
+					ODI-1241: Oracle Data Int</message>
+				<name>OdiOSCommand1</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>1</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104962000</sessionStepStarted>
+				<sessionStepUpdated>1354104962000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104962000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104962000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionStepHierarchyInfo>
+				<context>TESTCTX</context>
+				<deletes>0</deletes>
+				<duration>0</duration>
+				<errorCount>0</errorCount>
+				<id>1</id>
+				<inserts>0</inserts>
+				<message>ODI-1226: Step OdiOSCommand 2 fails after 1 attempt(s).
+					ODI-1241: Oracle Data In</message>
+				<name>OdiOSCommand 2</name>
+				<noOfExecutions>1</noOfExecutions>
+				<orderNumber>2</orderNumber>
+				<recordCount>0</recordCount>
+				<returnCode>7000</returnCode>
+				<sessionStepStarted>1354104962000</sessionStepStarted>
+				<sessionStepUpdated>1354104962000</sessionStepUpdated>
+				<sessionTaskHierarchyInfo>
+					<clientId>1350505619774:2000</clientId>
+					<deletes>0</deletes>
+					<duration>0</duration>
+					<errorCount>1</errorCount>
+					<id>0</id>
+					<inserts>0</inserts>
+					<logLevel>LEVEL_3</logLevel>
+					<message>oracle.odi.oditools.InvalidOdiToolException: ODI-17514:
+						Unrecognized Oracle Data</message>
+					<module>ODI:1350505619774/1/54001</module>
+					<orderNumber>0</orderNumber>
+					<recordCount>1</recordCount>
+					<returnCode>7000</returnCode>
+					<sessionTaskStarted>1354104962000</sessionTaskStarted>
+					<sessionTaskUpdated>1354104962000</sessionTaskUpdated>
+					<sourceCommand>/scratch/pkgOsCmdFail.csh</sourceCommand>
+					<status>ERROR</status>
+					<taskName1>Oracle Data Integrator Command</taskName1>
+					<taskName2>Oracle Data Integrator Command</taskName2>
+					<type>PROCEDURE</type>
+					<updates>0</updates>
+				</sessionTaskHierarchyInfo>
+				<status>ERROR</status>
+				<type>ODI_COMMAND</type>
+				<updates>0</updates>
+			</sessionStepHierarchyInfo>
+			<sessionUpdated>1354104962000</sessionUpdated>
+			<status>ERROR</status>
+			<updates>0</updates>
+			<work>WORKREP</work>
+		</sessionHierarchyInfo>
+		<sessionId xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:decimal">511001
+		</sessionId>
+		<startDate>1354104962000</startDate>
+		<status>lp_error.png</status>
+		<type></type>
+	</lpeStepHierarchyInfo>
+	<message>ODI-1519: Serial step &quot;root_step
+		(InternalID:1852001)&quot; failed because child step</message>
+	<originType>LoadPlan</originType>
+	<returnCode>ODI-1519</returnCode>
+	<status>ERROR</status>
+	<userName>SUPERVISOR</userName>
+</loadPlanExecutionHierarchyInfo>

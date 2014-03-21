@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sessionHierarchyInfo>
+	<agentName>genagent</agentName>
+	<context>GLOBAL</context>
+	<deletes>0</deletes>
+	<duration>6</duration>
+	<errorCount>0</errorCount>
+	<inserts>0</inserts>
+	<message>ODI-1217: Session DEL_INDX_DELPROCT0WHDVX01 (446001) fails
+		with return code 955.</message>
+	<name>DEL_INDX_DELPROCT0WHDVX01</name>
+	<noOfFailedChildSessions>0</noOfFailedChildSessions>
+	<noOfSuccessChildSessions>0</noOfSuccessChildSessions>
+	<origin>DEL_INDX_DELPROCT0WHDVX01-NC01</origin>
+	<recordCount>0</recordCount>
+	<returnCode>955</returnCode>
+	<sessionDetailLink>integration/displayEntity?entityType=SESSION&amp;repositoryAlias=testWork&amp;entityId=446001&amp;entityName=DEL_INDX_DELPROCT0WHDVX01
+	</sessionDetailLink>
+	<sessionId>446001</sessionId>
+	<sessionStarted>1353409058000</sessionStarted>
+	<sessionStepHierarchyInfo>
+		<context>GLOBAL</context>
+		<deletes>0</deletes>
+		<duration>5</duration>
+		<errorCount>0</errorCount>
+		<id>1</id>
+		<inserts>0</inserts>
+		<message>ODI-1226: Step DEL_INDX_DELProcT0WHDVX01 fails after 1
+			attempt(s). ODI-1232: Pro</message>
+		<name>DEL_INDX_DELProcT0WHDVX01</name>
+		<noOfExecutions>1</noOfExecutions>
+		<orderNumber>1</orderNumber>
+		<recordCount>0</recordCount>
+		<returnCode>955</returnCode>
+		<sessionStepStarted>1353409059000</sessionStepStarted>
+		<sessionStepUpdated>1353409064000</sessionStepUpdated>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<deletes>0</deletes>
+			<duration>0</duration>
+			<errorCount>0</errorCount>
+			<id>10</id>
+			<inserts>0</inserts>
+			<logLevel>LEVEL_3</logLevel>
+			<message>ODI-1228: Task DEL_INDX_DELProcT0WHDVX01 (Procedure) fails
+				on the target ORACLE </message>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>10</orderNumber>
+			<recordCount>0</recordCount>
+			<returnCode>955</returnCode>
+			<sessionTaskStarted>1353409064000</sessionTaskStarted>
+			<sessionTaskUpdated>1353409064000</sessionTaskUpdated>
+			<sourceCommand>create table ODITRG0.DEL_INDX_DELDST0WHDVX0 (
+				REGION_ID NUMBER(10) NOT NULL, REGION VARCHAR2(50) NOT NULL, COUNTRY
+				VARCHAR2(50) NULL, COUNTRY_ID NUMBER(10) NOT NULL, REGION_ID2
+				NUMBER(10) NOT NULL, COUNTRY_ID2 NUMBER(10) NOT NULL )
+			</sourceCommand>
+			<sourceTargetDataServerInfos>
+				<connectionType>JDBC_TARGET</connectionType>
+				<dataServerName>DEL_INDX_DELTDST0WHDVX0</dataServerName>
+				<errorDetailUrl>integration/displayEntity?entityType=ERROR_DETAIL&amp;repositoryAlias=testWork&amp;entityId=446001,DEL_INDX_DELTDST0WHDVX0
+				</errorDetailUrl>
+				<jdbcDriverName>oracle.jdbc.OracleDriver</jdbcDriverName>
+				<jdbcPassword>fFyHQfhF12NlBpOdVANs3</jdbcPassword>
+				<jdbcUrl>jdbc:oracle:thin:@adc2140257.us.oracle.com:14826:db2755
+				</jdbcUrl>
+				<jdbcUserName>ODITRG0</jdbcUserName>
+			</sourceTargetDataServerInfos>
+			<status>ERROR</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Create Table</taskName3>
+			<type>PROCEDURE</type>
+			<updates>0</updates>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>20</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>20</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>alter table ODITRG0.DEL_INDX_DELDST0WHDVX0 add
+				constraint PK_T0WHDVX0 primary key (REGION_ID)</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Primary Key</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>30</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>30</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Primary Key</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>40</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>40</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>alter table ODITRG0.DEL_INDX_DELDST0WHDVX0 add
+				constraint UNIQUET0WHDVX0 unique (COUNTRY_ID2)</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Alternate Key</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>50</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>50</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Alternate Keys</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>60</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>60</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>alter table ODITRG0.DEL_INDX_DELDST0WHDVX0 add
+				constraint CONDT0WHDVX0 check (REGION=upper(REGION))</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Check Constraint</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>70</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>70</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Check Constraints</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>80</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>80</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Foreign Keys</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>90</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>90</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>create index ODITRG0.INDEXT0WHDVX0 on
+				ODITRG0.DEL_INDX_DELDST0WHDVX0 (REGION_ID2)</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Create Index</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>100</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>100</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Create Indexes</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>110</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>110</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on table ODITRG0.DEL_INDX_DELDST0WHDVX0 is
+				'Initial Description for DEL_INDX_DELDST0WHDVX0'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Comment on Table</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>120</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>120</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Comments</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>130</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>130</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.REGION_ID is 'Initial description for
+				REGION_ID'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>140</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>140</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.REGION is 'Initial description for
+				REGION'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>150</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>150</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.COUNTRY is 'Initial description for
+				COUNTRY'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>160</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>160</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.COUNTRY_ID is 'Initial description
+				for COUNTRY_ID'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>170</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>170</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.REGION_ID2 is 'Initial description
+				for REGION_ID2'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>180</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>180</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>comment on column
+				ODITRG0.DEL_INDX_DELDST0WHDVX0.COUNTRY_ID2 is 'Initial description
+				for COUNTRY_ID2'</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Modify Commennt</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>190</id>
+			<logLevel>LEVEL_5</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>190</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Columns Comment</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<sessionTaskHierarchyInfo>
+			<clientId>1350505619774:2000</clientId>
+			<duration>0</duration>
+			<id>200</id>
+			<logLevel>LEVEL_3</logLevel>
+			<module>ODI:1350505619774/1/50001</module>
+			<orderNumber>200</orderNumber>
+			<sessionTaskStarted>0</sessionTaskStarted>
+			<sessionTaskUpdated>0</sessionTaskUpdated>
+			<sourceCommand>alter table ODITRG0.DEL_INDX_DELDST0WHDVX0 add
+				constraint FK_T0WHDVX0 foreign key (COUNTRY_ID) references
+				ODITRG0.DEL_INDX_DELDST0WHDVX0 (REGION_ID)</sourceCommand>
+			<status>WAITING</status>
+			<taskName1>Procedure</taskName1>
+			<taskName2>DEL_INDX_DELProcT0WHDVX01</taskName2>
+			<taskName3>Add Foreign Key</taskName3>
+			<type>PROCEDURE</type>
+		</sessionTaskHierarchyInfo>
+		<status>ERROR</status>
+		<type>USER_PROCEDURE</type>
+		<updates>0</updates>
+	</sessionStepHierarchyInfo>
+	<sessionUpdated>1353409059000</sessionUpdated>
+	<status>ERROR</status>
+	<updates>0</updates>
+	<work>WORKREP</work>
+</sessionHierarchyInfo>
